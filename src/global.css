@@ -5,9 +5,7 @@ body{
 }
 .main{
     min-height: 90.6vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
+
+    
     
 }

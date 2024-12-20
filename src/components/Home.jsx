@@ -1,15 +1,14 @@
-import React from 'react'
-import Card from '../sharedComponent/Card'
+import React from "react";
+import Card from "../sharedComponent/Card";
 
 const Home = (props) => {
-const shop = ", happy shopping."
+  const shop = ", happy shopping";
   return (
     <div>
-       {props.user}!
-
-      <Card userincard = {props.user} shop = {shop}/>
+      {props.user}!
+      <Card happyMessage={props.happy} shop={shop} />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

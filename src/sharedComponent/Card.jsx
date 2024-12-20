@@ -1,24 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Card = (props) => {
   return (
     <div>
-      
-    <h1>
-
-    {props.userincard} {props.shop}
-
-
-    </h1>
-
-
-
-
-
-
-
+      <h1>
+        {props.happyMessage}{props.shop}!
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
