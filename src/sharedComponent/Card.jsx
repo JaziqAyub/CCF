@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
     <div>
       <h1>
-        {props.happyMessage}{props.shop}!
+        {props.happyMessage}{props.shop}
       </h1>
     </div>
   );

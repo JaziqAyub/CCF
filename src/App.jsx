@@ -9,8 +9,8 @@ import Contact from "./components/Contact";
 import Register from "./components/Register";
 
 const App = () => {
-  const username = "Hey";
-  const happy = "Welcome";
+  const username = "Welcome to Calligraphy Corner! We’re thrilled to have you here. Explore our handcrafted calligraphy pieces, each one crafted with care and passion."
+  const happy = "Let the beauty of words inspire your space.";
 
   return (
     <BrowserRouter>
